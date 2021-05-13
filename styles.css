@@ -242,10 +242,10 @@ footer figure{
     .imgcategoria {height: 18rem;}
     .item a, .item b{ font-size:1.4rem; }
     #correo{width: 85%;}
-    .otrasfigures{
+    #otrasfigures{
         margin:auto;
         width: 360px;
-        max-width: 316px;
+        max-width: 360px;
         height: auto;
     }
 }

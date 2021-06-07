@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <script type="module" src="./index.js" async></script>
+    <script nomodule src="./index.js" async></script>
     <title>Portada</title>
 </head>
 <body class="portada">
@@ -25,11 +27,11 @@
     
     <div class="cortar">
         <div class="item opacidad"><a href="categoria.html">¡CONOCE NUESTROS PLATOS!</a> 
-            <a href="categoria.html" class="no-opacidad"><img id="dango" src="img/dango.svg" alt="ver platos"></a> 
+            <a href="categoria.html" class="no-opacidad"><img  loading="lazy" id="dango" src="img/dango.svg" alt="ver platos"></a> 
         </div>
         <div class="containerflex">
             <figure class="categorias itemflex">
-                <a href="categoria.html#platostipicos"><img class="image" src="img/curryreal2369.jpg"
+                <a href="categoria.html#platostipicos"><img loading="lazy" class="image" src="img/curryreal2369.jpg"
                     srcset="img/curryreal2125.jpg 125w, img/curryreal2166.jpg 166w, img/curryreal2221.jpg 221w, 
                     img/curryreal2295.jpg 295w, img/curryreal2369.jpg 369w"
                     sizes="(min-width:600px) 40vw, (min-width:768px) 30vw, (min-width:1024px) 20vw, 70vw"
@@ -39,7 +41,7 @@
             </figure>
             <figure class="categorias itemflex">
                 <a href="categoria.html#fideos" >
-                    <img  class="image"src="img/udon369.jpg" 
+                    <img  class="image"src="img/udon369.jpg" loading="lazy"
                     srcset="img/udon125.jpg 125w, img/udon166.jpg 166w, img/udon221.jpg 221w, 
                             img/udon295.jpg 295w, img/udon369.jpg 369w"
                             sizes="(min-width:600px) 40vw, (min-width:768px) 30vw, (min-width:1024px) 20vw, 70vw"
@@ -48,7 +50,7 @@
                 <figcaption>Fideos</figcaption>
             </figure>
             <figure class="categorias itemflex">
-                <a href="categoria.html#yaki" ><img class="image" src="img/monjayaki369.jpg" 
+                <a href="categoria.html#yaki" ><img class="image" src="img/monjayaki369.jpg" loading="lazy"
                     srcset="img/monjayaki125.jpg 125w, img/monjayaki166.jpg 166w, img/monjayaki221.jpg 221w, 
                             img/monjayaki295.jpg 295w, img/monjayaki369.jpg 369w"
                             sizes="(min-width:600px) 40vw, (min-width:768px) 30vw, (min-width:1024px) 20vw, 70vw"
@@ -57,7 +59,7 @@
                 <figcaption>Yaki</figcaption>
             </figure>
             <figure class="categorias itemflex">
-                <a href="categoria.html#dulces" ><img class="image" src="img/dango369.jpg"
+                <a href="categoria.html#dulces" ><img class="image" src="img/dango369.jpg" loading="lazy"
                     srcset="img/dango125.jpg 125w, img/dango166.jpg 166w, img/dango221.jpg 221w, 
                     img/dango295.jpg 295w, img/dango369.jpg 369w"
                     sizes="(min-width:600px) 40vw, (min-width:768px) 30vw, (min-width:1024px) 20vw, 70vw"
@@ -67,7 +69,6 @@
             </figure>
             </div>
     </div>
-    <script type="module" src="./index.js"></script>
-    <script nomodule src="./index.js"></script>
+
 </body>
 </html>
